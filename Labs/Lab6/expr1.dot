@@ -1,0 +1,34 @@
+digraph G {
+k[ label = "*" ]
+k->c
+c[ label = "+" ]
+c->a
+a[ label = "a" ]
+
+c -> b
+b[ label = "b" ]
+
+
+k -> j
+j[ label = "+" ]
+j->f
+f[ label = "-" ]
+f->d
+d[ label = "c" ]
+
+f -> e
+e[ label = "3" ]
+
+
+j -> i
+i[ label = "-" ]
+i->g
+g[ label = "d" ]
+
+i -> h
+h[ label = "4" ]
+
+
+
+
+}

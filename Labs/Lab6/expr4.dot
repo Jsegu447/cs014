@@ -1,0 +1,46 @@
+digraph G {
+o[ label = "-" ]
+o->m
+m[ label = "+" ]
+m->c
+c[ label = "/" ]
+c->a
+a[ label = "a" ]
+
+c -> b
+b[ label = "b" ]
+
+
+m -> l
+l[ label = "/" ]
+l->j
+j[ label = "*" ]
+j->h
+h[ label = "-" ]
+h->f
+f[ label = "*" ]
+f->d
+d[ label = "c" ]
+
+f -> e
+e[ label = "d" ]
+
+
+h -> g
+g[ label = "e" ]
+
+
+j -> i
+i[ label = "f" ]
+
+
+l -> k
+k[ label = "g" ]
+
+
+
+o -> n
+n[ label = "h" ]
+
+
+}
